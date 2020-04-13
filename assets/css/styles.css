@@ -5,3 +5,113 @@
 body {
     font-family: 'Open Sans', Arial, Tahoma, sans-serif;
 }
+h1 {
+    font-family: 'Open Sans';
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+header #main-title {
+    margin: 0 0 40px;
+    padding: 0 0 40px;
+    border-bottom: 5px solid #fff;
+    color: #fff;
+}
+header .h3 {
+    font-weight: bold;
+}
+header .h3,
+header .h5 {
+    color: #000;
+}
+.blue-sky-gradient {
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.parallax {
+    padding: 100px 0 0;
+    background: url("../images/me.png") no-repeat;
+    background-position: 130px left;
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.parallax .row.container {
+    height: 100%;
+}
+#about-me {
+    min-height: 400px;
+}
+#about-me .row {
+    height: 100%;
+}
+#about-me ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#about-me li { 
+    position: relative;
+    padding-left: 24px;
+}
+#about-me li:before {
+    position: absolute;
+    content: "■ ";
+    color: #007bff;
+    font-size: 14px;
+    left: 0;
+    font-family: Arial, sans-serif;
+}
+#portfolio {
+    min-height: 600px;
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
